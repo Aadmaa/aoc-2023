@@ -6,4 +6,3 @@ defmodule Day01BTest do
     assert Day01B.main("data/testdata_2.txt") == 281
   end
 end
-
