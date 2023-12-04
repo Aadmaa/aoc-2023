@@ -23,7 +23,7 @@ defmodule Day01 do
   end
 
   def main(filename) do
-    File.stream!(Path.absname(filename), [:read])
+    File.stream!(Path.absname(filename))
     |> Stream.map(&String.trim/1)
     |> Enum.to_list()
     |> countem

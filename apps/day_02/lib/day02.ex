@@ -65,7 +65,7 @@ defmodule Day02 do
   # main procedure
   def main(filename) do
     result =
-      File.stream!(Path.absname(filename), [:read])
+      File.stream!(Path.absname(filename))
       |> Stream.map(&String.trim/1)
       |> Enum.to_list()
       |> countem
