@@ -1,5 +1,6 @@
 defmodule Day04 do
   @moduledoc """
+  `Day04`
   Left hand list of numbers are Winners.
   Right hand list are My Guesses.
   Count the correct guesses on each line

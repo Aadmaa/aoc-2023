@@ -16,11 +16,11 @@ mix test
 iex
 
 c "lib/day04.ex"
-Day02.main("data/maindata.txt")
+Day04.main("data/maindata.txt")
 # Result: 32609
 
 c "lib/day04b.ex"
-Day02B.main("data/maindata.txt")
+Day04B.main("data/maindata.txt")
 # Result: 14624680
 ```
 
