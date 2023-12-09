@@ -1,7 +1,5 @@
 defmodule Day06 do
 
-  import Common.LogUtils
-
   @moduledoc """
   Documentation for `Day06`.
 
@@ -21,9 +19,6 @@ defmodule Day06 do
     |> Enum.filter(fn v -> v != "" and String.match?(v, ~r/^[\d]+$/) end)
     |> Enum.map(fn v -> String.to_integer(v) end)
   end
-
-  @acceleration 1.0
-
 
   # For the period of acceleration,
   # Distance added in each new second will be 1 more than the previous second,

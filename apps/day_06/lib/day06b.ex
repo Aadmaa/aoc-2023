@@ -1,5 +1,6 @@
 defmodule Day06B do
-  import Common.LogUtils
+
+  # import Common.LogUtils
 
   # Gets a list of integers from a string
   def string_to_int(str) do
@@ -127,7 +128,7 @@ defmodule Day06B do
     rez_left = find_where_x_exceeds_target_while_increasing(duration, record_y, {0, duration})
     rez_right = find_where_x_exceeds_target_while_decreasing(duration, record_y, {0, duration})
 
-    logg("Leftmost winning seconds=#{rez_left}, Rightmost=#{rez_right}")
+    # logg("Leftmost winning seconds=#{rez_left}, Rightmost=#{rez_right}")
 
     rez_right - rez_left + 1
   end
