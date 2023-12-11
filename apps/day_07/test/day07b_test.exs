@@ -3,6 +3,6 @@ defmodule Day07BTest do
   doctest Day07B
 
   test "gets the right answer with test data (b)" do
-    assert Day07.main("data/testdata.txt") == 5905
+    assert Day07B.main("data/testdata.txt") == 5905
   end
 end
